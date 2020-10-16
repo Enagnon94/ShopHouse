@@ -72,7 +72,7 @@
 
      <!-- Fin de la zone de recherche -->
 
-    <!-- Début grille -->
+    <!-- Début grille 
     <div class="grid-container" id="grille">
        
         <template id="destination">
@@ -112,7 +112,7 @@
         </div>
     </div>
 
-    <!-- Fin grille -->
+    Fin grille -->
 
     
     <div id="footer"></div>  <!-- Pied de page -->
@@ -120,7 +120,7 @@
     <div id="buildAncre"></div>
 
 
-    <script src="JS/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,192 @@
+
+/*style de la bar de navigation ----------------------------------------------------------------------------------------------------*/
+
+.homepage-title {
+    text-align: center;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+    color: white;
+  }
+  
+  /* Add a black background color to the top navigation */
+  
+  .topnav {
+    text-align: center;
+    /*background-color: #fff;*/
+  }
+  
+  /* Style the links inside the navigation bar */
+  
+  .topnav a {
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  
+  .topnav a:hover {
+    font-weight: bold;
+  }
+  
+  /* Add an active class to highlight the current page */
+  
+  .topnav a.active {
+    background-color: rgb(143, 214, 145);
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  .menu {
+    display: inline-block;
+    color: #337ab7;
+    padding: 10px;
+  }
+  
+  .logo {
+    font-size: 40px;
+    color: red;
+    margin-left: 10px;
+    text-align: left;
+  }
+  
+  .sticky {
+    top: 0px;
+    position: fixed;
+    background-color: #333;
+    width: 98%;
+    margin-right: 16px;
+    z-index: 99;
+  }
+  
+  .background-image {
+    background-image: url('../images/Ressources/img-entete1.jpg');
+    height: 50em;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .midpage {
+    background-image: url('../images/Ressources/img4.jpg');
+    position: relative;
+    margin-top: 0%;
+    top: 0%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    top: auto;
+  }
+  
+  .layer {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .contenu1 {
+    background-image: url('../images/Ressources/img-entete1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 5000px 5000px;
+    height: auto;
+  }
+  
+  .ancre {
+    position: fixed;
+    right: -50px;
+    bottom: 15%;
+    opacity: 0.85;
+  }
+  
+  .ancre:hover {
+    transform: scale(1.5);
+  }
+  
+  /*style du footer ----------------------------------------------------------------------------------------------------*/
+  
+  /*-----------------------------------------------------------------------------------*/
+  
+  .footer-wrapper {
+    color: rgb(255, 255, 255);
+    margin-bottom: 0%;
+    padding: 150px 15px 60px;
+    text-align: center;
+  }
+  
+  .social-icons-wrapper {
+    padding: 1px;
+  }
+  
+  .social-icons-wrapper .social-footer-icon {
+    height: 22px;
+    width: 22px;
+    margin: 0 15px;
+    display: inline-block;
+  }
+  
+  .links {
+    margin: 35px 0;
+  }
+  
+  .copyrights {
+    font-size: .9rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 1rem;
+  }
+  
+  .social-footer-facebook {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn1.voyagesdetective.fr/Facebook-2x_1.png);
+  }
+  
+  .social-footer-instagram {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn1.voyagesdetective.fr/Instagram-2x_1.png);
+  }
+  
+  .social-footer-pinterest {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn1.voyagesdetective.fr/pinterest_1.png);
+  }
+  
+  .foot {
+    margin-top: 10px;
+    margin-bottom: 0%;
+    background-color: rgb(36, 34, 34);
+  }
+  
+
+
+
+
+
