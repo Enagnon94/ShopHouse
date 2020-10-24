@@ -35,7 +35,7 @@
   /* Add an active class to highlight the current page */
   
   .topnav a.active {
-    background-color: rgb(143, 214, 145);
+    background-color: rgba(36, 36, 156, 0.664);
     color: white;
   }
   
